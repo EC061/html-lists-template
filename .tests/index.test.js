@@ -7,7 +7,7 @@ describe('HTML Resume Structure', () => {
   let document;
 
   beforeAll(() => {
-    const filePath = path.join(__dirname, 'index.html');
+    const filePath = path.join(__dirname, '../index.html');
     const html = fs.readFileSync(filePath, 'utf-8');
     dom = new JSDOM(html);
     document = dom.window.document;

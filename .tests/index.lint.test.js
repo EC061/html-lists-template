@@ -5,7 +5,7 @@ const validator = require('html-validator');
 
 describe('HTML Validation - index.html', () => {
   test('should have valid HTML (no missing closing tags)', async () => {
-    const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
+    const html = fs.readFileSync(path.join(__dirname, '../index.html'), 'utf8');
 
     const options = {
       data: html,
