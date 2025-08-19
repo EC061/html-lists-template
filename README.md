@@ -14,5 +14,14 @@ Create the following html elements in the body `<body>` in this order.  The cont
 - level 3 heading `<h3>` - *experience*
 - description list - *date range in term*, *experience in description*
 
-  ### Sample browser screenshot:
-<img width="686" height="453" alt="image" src="https://github.com/user-attachments/assets/fd3cbdb7-cfe9-4e87-8a6b-d26157a3d4b8" />
+## Run tests locally as much as possible (only use Github Action for limited testing and final submission)
+You can run the tests locally by running `npm install`, then `npm test` in the terminal. Go to [Node.js home page](https://nodejs.org/en/download/) for more information on installing npm and Node.js
+
+## Submit your assignment
+1. Push your code to the remote repository on GitHub.
+2. Got to Action tab in your repository.
+![alt text](.images/image1.png "Action tab")
+3. Select the workflow named "Autograding Tests" from the list of workflows.  
+![alt text](.images/image2.png "Autograding Tests")
+4. Click on the "Run workflow" button to run the tests.
+![alt text](.images/image3.png "Run workflow")
